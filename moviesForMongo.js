@@ -20,4 +20,4 @@ db.movies.save({"title":"The Hobbit: An Unexpected Journey","details": {"year":"
 
 db.movies.save({"title":"The Avengers","details": {"year":"2012","rated":"PG-13","genre":["Action", "Sci-Fi"],"director":"Joss Whedon",},"actors":["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],"plot":"Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.","imdbRating":8.1,"boxOffice":"$623,279,547"})
 
-db.movies.save({"title":"The Incredibles","details": {"year":"2004","rated":"PG","genre": "Animation","director":"Brad Bird",},"actors":["Craig T. Nelson", "Samuel L. Jackson"],"plot":"A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.","imdbRating":8.0})
+db.movies.save({"title":"The Incredibles","details": {"year":"2004","rated":"PG","genre": ["Animation"],"director":"Brad Bird",},"actors":["Craig T. Nelson", "Samuel L. Jackson"],"plot":"A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.","imdbRating":8.0})
